@@ -1,5 +1,5 @@
 h1 {
-  color: #756ab6;
+  color: #0f0d1a;
 }
 body {
   background-color: #d9c2f0;
@@ -8,8 +8,9 @@ h1 {
   text-align: center;
 }
 h1 {
-  color: #756ab6;
-  -webkit-text-stroke: 2px #2e004f;
+  color: #0f0d1a;
+  font-size: 49px;
+  -webkit-text-stroke: 2px #27093d;
 }
 .avatar {
   width: 220px;
