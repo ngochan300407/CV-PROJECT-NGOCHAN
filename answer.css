@@ -1,6 +1,35 @@
+body {
+  background-color: #d9c2f0;
+}
 h1 {
   color: #0f0d1a;
   text-align: center;
   font-size: 49px;
-  -webkit-text-stroke: 2px #27093d;
+}
+.Question-box {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  background: white;
+  padding: 40px 60px;
+  width: 70%;
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.Quay-ve {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  background: white;
+  padding: 20px 30px;
+  width: fit-content;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.Quay-ve {
+  font-size: 20px;
+  color: #0f0d1a;
+  font-family: "Times New Roman", Times, serif;
 }
