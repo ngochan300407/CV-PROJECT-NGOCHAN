@@ -1,0 +1,113 @@
+body {
+  background-color: #34126e;
+}
+h1 {
+  color: azure;
+  text-align: center;
+  font-size: 49px;
+}
+
+.Quay-ve-1 {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+  background: white;
+  padding: 20px 30px;
+  width: fit-content;
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.25);
+}
+.skills-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.skills-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: azure;
+}
+
+.skills-subtitle {
+  opacity: 1;
+  margin-bottom: 40px;
+  color: azure;
+  font-size: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+  width: 80%;
+  margin: 0 auto;
+  color: azure;
+}
+
+.skill-card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 25px;
+  border-radius: 15px;
+  backdrop-filter: blur(6px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  position: relative;
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.35);
+}
+
+.skill-icon {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+.skill-card h3 {
+  font-size: 20px;
+  margin: 8px 0;
+}
+
+.label {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 8px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 7px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 7px;
+  background: #45e1ff;
+  box-shadow: 0 0 10px #45e1ff;
+  border-radius: 10px;
+}
+
+.percent {
+  font-size: 14px;
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.7s ease-out forwards;
+}
+
+@keyframes fadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
