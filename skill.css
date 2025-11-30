@@ -1,9 +1,9 @@
 body {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: linear-gradient(135deg, #130142, #6004f4);
   position: relative;
-  overflow: hidden;
+  overflow: auto;
   background-color: #34126e;
   font-family: "Times New Roman", Times, serif;
 }
